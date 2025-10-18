@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+.custom-shadow {
+    box-shadow: 
+        rgba(70, 56, 138, 0.07) 0rem 0rem 0.063rem 0px,
+        rgba(70, 56, 138, 0.07) 0rem 0.313rem 0.688rem 0px,
+        rgba(70, 56, 138, 0.06) 0rem 1.25rem 1.25rem 0px,
+        rgba(70, 56, 138, 0.03) 0rem 2.75rem 1.625rem 0px,
+        rgba(70, 56, 138, 0.01) 0rem 4.875rem 1.938rem 0rem;
+}
+
+.custom-shadow-hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
